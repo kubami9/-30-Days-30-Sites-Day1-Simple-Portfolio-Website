@@ -1,0 +1,83 @@
+#header {
+	background-image: url("img/joshua-earle-12689.jpg");
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Walter Turncoat', cursive;
+}
+hr {
+    width: 40%;
+    height: 4px;
+    background-color: white;
+}
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 117px;
+    margin-left: 400px;
+    
+}
+a {
+    color: #1da1f2;
+}
+a:hover {
+    color: #ffffff;
+}
+.social {
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    border: none;
+    width: 60px;
+}
+.twitter {
+	background-color: #1da1f2;
+}
+.twitter:hover {
+	background-color: white;
+    color: #1da1f2;
+}
+.facebook {
+	background-color: #3b5998;
+}
+.facebook:hover {
+	background-color: white;
+    color: #3b5998;
+}
+.github {
+	background-color: #333;
+}
+.github:hover {
+	background-color: white;
+    color: #333;
+}
+.pinterest {
+	background-color: #bd081c;
+}
+.pinterest:hover {
+	background-color: white;
+    color: #bd081c;
+}
+.info {
+    border: 1px solid white;
+    color: white;
+}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (max-width: 560px) {
+    body {
+        margin-bottom: 15%;
+    }    
+}
+
+
